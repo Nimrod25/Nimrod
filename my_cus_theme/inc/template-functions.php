@@ -40,3 +40,7 @@ add_action( 'wp_head', '_s_pingback_header' );
 function add_about_page(){
 	echo "This my about Page";
 }
+
+function add_reporting_feature(){
+	echo "This is reporting feature page";
+}
