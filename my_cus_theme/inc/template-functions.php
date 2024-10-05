@@ -37,6 +37,6 @@ function _s_pingback_header() {
 add_action( 'wp_head', '_s_pingback_header' );
 
 
-function add_abuot_page(){
+function add_about_page(){
 	echo "This my about Page";
 }
