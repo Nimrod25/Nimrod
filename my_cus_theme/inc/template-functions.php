@@ -44,3 +44,7 @@ function add_about_page(){
 function add_reporting_feature(){
 	echo "This is reporting feature page";
 }
+
+function greet_reporting(){
+	add_reporting_feature();
+}
